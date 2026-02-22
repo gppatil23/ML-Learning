@@ -1,0 +1,5 @@
+To run python streamlit file 
+run command on Terminal
+
+#with file path
+streamlit run app.py
