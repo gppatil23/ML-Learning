@@ -1,0 +1,7 @@
+EXPOSE 5000---------Define the network ports that this container will listen on at runtime.
+
+ENV FLASK_ENV=app.py--------------Set the environment variable key to the value value.
+
+COPY . . ----------------Copy files or folders from source to the dest path in the image's filesystem
+
+CMD [ "flask","run" ]-----------------Provide defaults for an executing container. If an executable is not specified, then ENTRYPOINT must be specified as well. There can only be one CMD instruction in a Dockerfile.
